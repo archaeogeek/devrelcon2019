@@ -109,10 +109,17 @@ visibility: inherit;
 
 .reveal .slides section .fragment.alsosparkley {
 opacity: 1;
-color:yellow;
+color:grey;
 }
 
 .reveal .slides section .fragment.boxed {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff; 
+    margin: 20px;
+}
+
+.reveal .slides section .boxed {
     box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); 
     background-color: rgba(0, 0, 0, 0.7); 
     color: #fff; 

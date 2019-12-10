@@ -16,7 +16,7 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Theme used for syntax highlighting of code -->
@@ -46,7 +46,7 @@
 					<h2>Inspiring and empowering users and techies to become great writers</h2>
 					<h3>and why that's important</h3>
 					<p>
-						<small>Presented by Jo Cook, Astun Technology | OSGeo</small>
+						<small>Presented by Jo Cook, Astun Technology | OSGeo | @archaeogeek</small>
 					</p>
 				</section>
 
@@ -79,7 +79,7 @@
 
 
 				<section data-background-image="./images/barrier.jpg" alt="fence" class="full" data-background-size="cover" data-background-color="white">
-					<h3>Documentation is severely lacking!</h3>
+					<h3 style="color:black">Documentation is severely lacking!</h3>
 					<div class="box-left">
 					<blockquote>Lack of documentation is a highly effective barrier to participation... adoption and contribution
 						<footer>Riona MacNamara at Write the Docs Australia 2019 (via @knowledge_owl)</footer>
@@ -90,7 +90,7 @@
 				
 
 				<section data-background-image="./images/facepalm.jpg" alt="bear" class="full" data-background-size="cover" data-background-color="white">
-					<h3 style="color:white">and you get people saying this:</h3>
+					<h3 style="color:black">and you get people saying this:</h3>
 					<div class="box-right">
 					<blockquote style="color:white">My code is open source on GitHub, but I don't spend any effort making it easy for others to use it. If you want to figure it out yourself, have fun!<footer>Redacted to protect the innocent</footer></blockquote>
 					</div>
@@ -165,7 +165,7 @@
 				</section>
 
 				<section>
-					<h2>Why people are put off contributing</h2>
+					<h2>Step Four: Figure out what puts people off</h2>
 				</section>
 
 				<section data-background-image="./images/barrier.jpg" alt="barrier" class="full" data-background-size="cover" data-background-color="white">
@@ -201,7 +201,7 @@
 
 
 				<section>
-					<h2>What to do instead</h2>
+					<h2>Step Five: Figure out a better solution</h2>
 				</section>
 
 				<section data-background-image="./images/reducebarrier.jpg" alt="jump" class="full" data-background-size="cover" data-background-color="white">
@@ -220,8 +220,9 @@
 				<section data-background-image="./images/thankyou.jpg" alt="thanks" class="full" data-background-size="cover" data-background-color="white">
 					<div class="fragment boxed fade-left" style="margin-top:150px !important;">
 					<h3 style="color:white">Attract and nurture existing technical writers</h3>
-					<blockquote style="color:white">It is no trivial task to make complex information in the technical domain simple for users to understand and follow<footer>https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/</footer></blockquote>
-				</div>
+					</div>
+					<blockquote style="color:white" class="fragment boxed fade-left">It is no trivial task to make complex information in the technical domain simple for users to understand and follow<footer>https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/</footer></blockquote>
+				
 					<aside class="notes">Technical Writers != Secretaries, they have subject matter expertise</aside>
 					<small class="attribution" style="color:white">Pintrest, yuck</small>
 				</section>
@@ -233,7 +234,7 @@
 				</section>
 
 				<section>
-					<h2>So, as a quick reminder, you should do this because...</h2>
+					<h2>So, to summarise, this is important because...</h2>
 				</section>
 
 				<section data-state='sparkley'>
@@ -247,23 +248,25 @@
 				</section>
 
 				<section data-background-image="./images/seasonofdocs.png" alt="GSoD" class="full" data-background-size="cover" data-background-color="white">
-					<h3 class="fragment boxed fade-left" style="color:white; margin-top:300px !important">Enter Google Season of Docs</h3>
-					<p class="fragment boxed fade-left">Matching technical writers with open source projects</p>
-					<p class="fragment boxed fade-left">For 3 or 6 months</p>
+					<div class="boxed">
+					<h3 style="color:white; margin-top:300px !important">Enter Google Season of Docs</h3>
+					<p>Matching technical writers with open source projects</p>
+					<p>For 3 or 6 months</p>
+				</div>
 					<aside class="notes">For OSGeo- OSGeoLive Quick Starts and GeoNetwork</aside>
 				</section>
 
 				<section data-background-image="./images/question.jpg" alt="question" class="full" data-background-size="cover" data-background-color="white">
-					<h3>So we thought...why not abstract that expertise and work to make something more generic?</h3>
+					<h3 style="color:black">So we thought...why not abstract that expertise and work to make something more generic?</h3>
 					<small class="attribution" style="color:black">Skeptical Cat, Flickr, CC-By-2.0</small>
 				</section>
 
 				<section>
-					<h2>Introducing...</h2>
+					<h2>Step Six: Building an actual solution</h2>
 				</section>
 
 				<section data-background-image="./images/doctopus-with-docs.png" alt="tGDP" class="full" data-background-size="cover" data-background-color="white" data-state='sparkley'>
-					<h1 class="fragment alsosparkley" style="visibility:visible">The Good Docs Project</h1>
+					<h2 class="fragment alsosparkley" style="visibility:visible">The Good Docs Project</h2>
 				</section>
 
 
@@ -295,7 +298,7 @@
 
 				<section>
 					<h3>Thank You!</h3>
-					<p>w: astuntechnology.com | t: @archaeogeek</p>
+					<p>w: archaeogeek.github.io/devrelcon2019 | t: @archaeogeek</p>
 				</section>
 				
 			</div>
@@ -347,14 +350,14 @@
 	                "overlap": 0 ,
 	                "direction": "both" ,
 	                "speed": 1,
-	                "fadeSpeed":10000});
+	                "fadeSpeed":1000});
 					$curfrag.off("mouseover.sparkle")
 					$curfrag.trigger("start.sparkle")
 						.on("click");
 					
 					timer = setTimeout(function(){
 						$curfrag.trigger("stop.sparkle");
-					},900);
+					},300);
 
 				} );
 				Reveal.addEventListener( 'fragmenthidden', function( event ) {
